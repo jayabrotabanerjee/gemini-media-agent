@@ -1,0 +1,3 @@
+magentic[gemini]
+python-dotenv
+google-generativeai
