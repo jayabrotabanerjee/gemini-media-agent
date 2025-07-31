@@ -1,5 +1,5 @@
 Requirement 1: From the input video 'input_video.mp4', create a 5-second clip starting at the 10-second mark.
-Requirement 2: Name the output clip 'bunny_clip.mp4'.
+Requirement 2: Name the output clip 'input_clip.mp4'.
 Requirement 3: Extract a thumbnail from the middle of the original video.
-Requirement 4: Name the thumbnail 'bunny_thumbnail.jpg'.
+Requirement 4: Name the thumbnail 'input_thumbnail.jpg'.
 Requirement 5: The thumbnail resolution should be 640x360.
