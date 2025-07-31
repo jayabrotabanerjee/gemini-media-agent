@@ -6,7 +6,7 @@ The entire workflow is orchestrated using Python, the `magentic` library for age
 
 ***
 
-### 🎯 Problem Statement
+### Problem Statement
 
 In media production, many tasks are repetitive yet require careful execution (e.g., transcoding videos, creating clips, generating thumbnails, renaming files). This project automates this process. Given a set of source files and a text document with client requirements, the AI agents will:
 1.  Analyze the feasibility of the requirements.
@@ -16,7 +16,7 @@ In media production, many tasks are repetitive yet require careful execution (e.
 
 ***
 
-### 🛠️ Technology Stack
+### Technology Stack
 
 * **AI Model**: Google Gemini 1.5 Flash
 * **Python**: 3.8+
@@ -28,7 +28,7 @@ In media production, many tasks are repetitive yet require careful execution (e.
 
 ***
 
-### 📂 Project Structure
+### Project Structure
 
 ```
 gemini-media-agent-workflow/
@@ -43,7 +43,7 @@ gemini-media-agent-workflow/
 
 ***
 
-### 🚀 Setup and Installation
+### Setup and Installation
 
 #### 1. Prerequisites
 - Python 3.8+
@@ -83,7 +83,7 @@ GEMINI_API_KEY="your_google_ai_studio_api_key"
 
 ***
 
-### ▶️ How to Run
+### How to Run
 
 1.  Add your source media files (e.g., `input_video.mp4`) to the `assets/` folder.
 2.  Edit the `assets/client_requirements.txt` file to specify the tasks you want the agents to perform.
@@ -91,4 +91,3 @@ GEMINI_API_KEY="your_google_ai_studio_api_key"
     ```bash
     python main.py
     ```
-The script will initialize the agents, and you will see the live output as they analyze, plan, execute, and check the tasks.
