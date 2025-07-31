@@ -74,7 +74,6 @@ pip install -r requirements.txt
 ```
 
 #### 5. Configure API Key
-- Rename the `.env.example` file to `.env`.
 - Open the `.env` file and add your Google AI API key. You can get a key from [Google AI Studio](https://aistudio.google.com/app/apikey).
 ```env
 # .env
